@@ -5,9 +5,66 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  align-items: center;
+  color: aliceblue;
+  background-color: #23252C;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav--photo {
+  margin-top: 5%;
+  width: 90%;
+  border-radius: 5%;
+}
+
+.navbar > h3 {
+  color: #F3BF99;
+}
+
+.intereset {
+  background-color: #1A1B21;
+  margin:0%;
+  padding-bottom: 10px;
+  float: none;
+  padding-top: 5%;
+}
+
+
+
+.navbar {
+  background-color: #1A1B21;
+  margin: 0%;
+  float: none;
+}
+
+.about {
+  background-color: #1A1B21;
+  margin: 0;
+  float: left;
+  padding: 0 10% 0 10%;
+}
+
+.about > p {
+  text-align:justify;
+}
+
+.nav--ln {
+  margin: 5%;
+  display: inline;
+}
+
+.nav--mail {
+  margin: 5%;
+  display: inline;
+}
+
+.footer{
+  display: flex;
+  justify-content:space-around;
+  background-color: #161619;
+  padding: 5% 10% 5% 10%;
 }
